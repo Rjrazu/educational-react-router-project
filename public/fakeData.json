@@ -1,0 +1,42 @@
+[
+    {
+        "key": "kgc123cgk",
+        "program": "Play To Kg-1",
+        "totalSeat": 200,
+        "availableSeat": 70,
+        "Shift": "Morning",
+        "teachers": 20,
+        "details": "160 Broadway New York NY 10038 1st Avenue New York NY 100 160 Broadway New York NY 10038 1st Avenue New York NY 100160 Broadway New York NY 10038 1st Avenue New York NY 100160 Broadway New York NY 10038 1st Avenue New York NY 100160 Broadway New York NY 10038 1st Avenue New York NY 100160 Broadway New York NY 10038 1st Avenue New York NY 100160 Broadway New York NY 10038 1st Avenue New York NY 100160 Broadway New York NY 10038 1st Avenue New York NY 100 ",
+        "img": "https://thumbs.dreamstime.com/z/large-group-kids-play-plasticine-class-diverse-looking-boys-girls-kindergarten-modeling-clay-48811491.jpg"
+    },
+    {
+        "key": "kgc456cgk",
+        "program": "Kg-1 To Kg-5",
+        "totalSeat": 200,
+        "availableSeat": 90,
+        "Shift": "Morning",
+        "teachers": 30,
+        "details": "160 Broadway New York NY 10038 1st Avenue New York NY 100 160 Broadway New York NY 10038 1st Avenue New York NY 100160 Broadway New York NY 10038 1st Avenue New York NY 100160 Broadway New York NY 10038 1st Avenue New York NY 100160 Broadway New York NY 10038 1st Avenue New York NY 100160 Broadway New York NY 10038 1st Avenue New York NY 100160 Broadway New York NY 10038 1st Avenue New York NY 100160 Broadway New York NY 10038 1st Avenue New York NY 100 ",
+        "img": "https://www.britishcouncil.org.bd/sites/default/files/4788.png"
+    },
+    {
+        "key": "kgc789cgk",
+        "program": "Class-6 To Class-10",
+        "totalSeat": 400,
+        "availableSeat": 120,
+        "Shift": "Morning",
+        "teachers": 40,
+        "details": "160 Broadway New York NY 10038 1st Avenue New York NY 100 160 Broadway New York NY 10038 1st Avenue New York NY 100160 Broadway New York NY 10038 1st Avenue New York NY 100160 Broadway New York NY 10038 1st Avenue New York NY 100160 Broadway New York NY 10038 1st Avenue New York NY 100160 Broadway New York NY 10038 1st Avenue New York NY 100160 Broadway New York NY 10038 1st Avenue New York NY 100160 Broadway New York NY 10038 1st Avenue New York NY 100 ",
+        "img": "https://mk0digitallearn7ttjx.kinstacdn.com/wp-content/uploads/2021/02/CBSE-reopens.jpg"
+    },
+    {
+        "key": "kgc741cgk",
+        "program": "Class-11 To Class-12",
+        "totalSeat": 100,
+        "availableSeat": 10,
+        "Shift": "Evening",
+        "teachers": 20,
+        "details": "160 Broadway New York NY 10038 1st Avenue New York NY 100 160 Broadway New York NY 10038 1st Avenue New York NY 100160 Broadway New York NY 10038 1st Avenue New York NY 100160 Broadway New York NY 10038 1st Avenue New York NY 100160 Broadway New York NY 10038 1st Avenue New York NY 100160 Broadway New York NY 10038 1st Avenue New York NY 100160 Broadway New York NY 10038 1st Avenue New York NY 100160 Broadway New York NY 10038 1st Avenue New York NY 100 ",
+        "img": "https://nepaliad.com/wp-content/uploads/2020/08/Class-12-Student-Nepal.jpg"
+    }
+]

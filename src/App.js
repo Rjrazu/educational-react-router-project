@@ -8,6 +8,8 @@ import About from './componants/About/About';
 import Contact from './componants/Contact/Contact';
 import NotFound from './componants/NotFound/NotFound';
 import Footer from './componants/Footer/Footer';
+import Teachers from './componants/Teachers/Teachers';
+import Teacher from './componants/Teacher/Teacher';
 
 function App() {
   return (
@@ -16,9 +18,11 @@ function App() {
 
         <Header></Header>
 
+
         <Switch>
           <Route exact path="/">
             <Home></Home>
+
           </Route>
           <Route exact path="/home">
             <Home></Home>
@@ -32,8 +36,14 @@ function App() {
           <Route exact path="/contact">
             <Contact></Contact>
           </Route>
-          <Route exact path="/services/:serviceId">
+          <Route exact path="/services">
             <Service></Service>
+          </Route>
+          <Route exact path="/teachers">
+            <Teachers></Teachers>
+          </Route>
+          <Route exact path="/teacher">
+            <Teacher></Teacher>
           </Route>
           <Route path="*">
             <NotFound></NotFound>
