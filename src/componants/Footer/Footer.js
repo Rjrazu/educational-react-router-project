@@ -5,12 +5,12 @@ import './Footer.css';
 const Footer = () => {
     return (
         <div>
-            <div className="footer-container">
+            <div className="footer">
                 <div className="container">
                     <div className="row">
                         <div className="col-md-5">
                             <div className="left-container text-start">
-                                <h1>CommitMent School and College</h1>
+                                <h1>Commitment School and College</h1>
                                 <p className="mt-4 ">
                                     <small>
                                         Come For Knowledge And Go Out For Services!
@@ -26,27 +26,51 @@ const Footer = () => {
                             <div className="footer-menu-container">
                                 <ul>
                                     <li className="footer-menu">Quick Path</li>
-                                    <li className="footer-menu"><NavLink to="./home">Home</NavLink></li>
-                                    <li className="footer-menu"><NavLink to="./services">Services</NavLink></li>
-                                    <li className="footer-menu"><NavLink to="./contact">Contact Us</NavLink></li>
-                                    <li className="footer-menu"><NavLink to="./about">About Us</NavLink></li>
+
+                                    <li className="footer-menu"><NavLink
+                                        style={{
+                                            textDecoration: "none",
+                                            color: "cyan",
+                                            fontSize: "18px"
+                                        }}
+                                        to="./home"
+                                    >Home</NavLink></li>
+
+                                    <li className="footer-menu"><NavLink
+                                        style={{
+                                            textDecoration: "none",
+                                            color: "cyan",
+                                            fontSize: "18px"
+                                        }}
+                                        to="./services"
+                                    >Services</NavLink></li>
+
+                                    <li className="footer-menu"><NavLink
+                                        style={{
+                                            textDecoration: "none",
+                                            color: "cyan",
+                                            fontSize: "18px"
+                                        }}
+                                        to="./contact"
+                                    >Contact Us</NavLink></li>
+
+                                    <li className="footer-menu"><NavLink
+                                        style={{
+                                            textDecoration: "none",
+                                            color: "cyan",
+                                            fontSize: "18px"
+                                        }}
+                                        to="./about"
+                                    >About Us</NavLink></li>
                                 </ul>
                             </div>
                         </div>
                         <div className="col-md-5">
                             <div className="right-footer-container">
-                                <h3>Sign up for the newsletter</h3>
-                                <input
-                                    className="footer-input"
-                                    type="text"
-                                    placeholder="Enter Email"
-                                />
-                                <div className="phone d-flex align-items-center justify-content-center mt-4">
-                                    <div className="foter-phone-icon">
 
-                                    </div>
+                                <div className="phone d-flex align-items-center justify-content-center mt-4">
                                     <div>
-                                        <h5>+1 8 800 555 35 35</h5>
+                                        <h5>+8801303394250</h5>
                                     </div>
                                 </div>
                                 <div className="map d-flex align-items-center justify-content-center">
@@ -55,8 +79,8 @@ const Footer = () => {
                                     </div>
                                     <div>
                                         <p>
-                                            160 Broadway, New York, NY 10038,
-                                            <br /> 102 1st Avenue, New York, NY 100
+                                            Anondo Bajar
+                                            <br /> Romari, Kurigram-4, Rangpur
                                         </p>
                                     </div>
                                 </div>

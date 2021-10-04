@@ -1,7 +1,14 @@
 import React from 'react';
+import { useHistory } from 'react-router';
 import './Banner.css'
 
 const Banner = () => {
+    const history = useHistory();
+
+    const handleClick = () => {
+        history.push(`/about`);
+    }
+
     return (
         <div className="banner-container ">
             <div className="">
@@ -9,13 +16,12 @@ const Banner = () => {
                     <div className="col-md-6"></div>
                     <div className="col-md-6">
                         <h1 className="title">
-                            BE THE BASKETBALL <br /> STAR AND SHINE
+                            Commitment School <br /> And College!
                         </h1>
-                        <p className="text-white text-center mt-3">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
-                            tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+                        <p className="text-white mt-3">
+                            Education is the passport to the future, <br /> for tomorrow belongs to those who prepare for it today.
                         </p>
-                        <button className="mt-3 about-btn">About Us</button>
+                        <button onClick={handleClick} className="mt-3 contact-btn">About Us</button>
                     </div>
                 </div>
             </div>

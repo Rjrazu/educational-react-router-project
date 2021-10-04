@@ -1,7 +1,7 @@
 .banner {
     background-image: url("http://www.reaveylaw.com/wp-content/uploads/2017/05/school.jpg"),
       linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
-    height: 780px;
+    height: 700px;
     width: 100%;
     background-blend-mode: overlay;
     background-repeat: no-repeat;
@@ -13,9 +13,10 @@
     font-weight: bold;
     font-size: 50px;
   }
-  .about-btn {
+  .contact-btn {
     background-color: #ff0505;
     outline: none;
+    border-radius: 10px;
     border: none;
     padding: 17px 34px;
     color: white;

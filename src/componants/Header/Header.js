@@ -8,7 +8,7 @@ const Header = () => {
         <div>
             <Navbar bg="light" expand="lg">
                 <Container>
-                    <Navbar.Brand href="#">Commiment S&C</Navbar.Brand>
+                    <Navbar.Brand style={{ fontWeight: "bold", fontSize: "22px" }} href="/home"> Commitment S&C</Navbar.Brand>
                     <Navbar.Toggle aria-controls="navbarScroll" />
                     <Navbar.Collapse id="navbarScroll">
                         <Nav
@@ -20,7 +20,8 @@ const Header = () => {
                                 style={{
                                     fontSize: "20px",
                                     textDecoration: "none",
-                                    marginRight: "15px"
+                                    marginRight: "20px",
+                                    marginLeft: "25px"
                                 }}
                                 activeStyle={{
                                     fontWeight: "bold",
@@ -32,7 +33,7 @@ const Header = () => {
                                 style={{
                                     fontSize: "20px",
                                     textDecoration: "none",
-                                    marginRight: "15px"
+                                    marginRight: "20px"
                                 }}
                                 activeStyle={{
                                     fontWeight: "bold",
@@ -44,19 +45,19 @@ const Header = () => {
                                 style={{
                                     fontSize: "20px",
                                     textDecoration: "none",
-                                    marginRight: "15px"
+                                    marginRight: "20px"
                                 }}
                                 activeStyle={{
                                     fontWeight: "bold",
                                     color: "red",
 
                                 }}
-                                to="/teachers">Teachers</NavLink>
+                                to="/achivements">Achivements</NavLink>
                             <NavLink
                                 style={{
                                     fontSize: "20px",
                                     textDecoration: "none",
-                                    marginRight: "15px"
+                                    marginRight: "20px"
                                 }}
                                 activeStyle={{
                                     fontWeight: "bold",
@@ -68,7 +69,7 @@ const Header = () => {
                                 style={{
                                     fontSize: "20px",
                                     textDecoration: "none",
-                                    marginRight: "15px"
+                                    marginRight: "20px"
                                 }}
                                 activeStyle={{
                                     fontWeight: "bold",
@@ -84,7 +85,7 @@ const Header = () => {
                                 className="me-2"
                                 aria-label="Search"
                             />
-                            <Button variant="outline-primary">Search</Button>
+                            <Button variant="primary">Search</Button>
                         </Form>
                     </Navbar.Collapse>
                 </Container>

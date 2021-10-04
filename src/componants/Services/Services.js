@@ -12,10 +12,16 @@ const Services = () => {
     }, [])
     return (
 
-        <div className="container mt-3 mb-3">
-            <h2 className="mb-4">Our Services</h2>
+        <div className="container mt-5 mb-5">
+            <div className="ApplyForm m-4">
+                <div className="container">
+                    <div className="bg-light ApplyForm-header m-5">
+                        <h2 className="text-dark  p-2 text-center">Our Academic Services</h2>
+                    </div>
+                </div>
+            </div>
             <div className="row">
-                <div >
+                <div className="container" >
                     <Row xs={1} md={2} className="g-4">
 
                         {

@@ -1,21 +1,21 @@
 import React from 'react';
 import { Button, Card, Col } from 'react-bootstrap';
 
-const Service = (prpos) => {
-    const { program, shift, img } = prpos.program;
+const Service = (props) => {
+    console.log(props.program)
+    const { program, shift, availableSeat, img } = props.program;
+
     return (
         <div className="col-lg-6">
             <Col>
-                <Card>
-                    <Card.Img variant="top center" style={{ width: "320px", height: "240px" }} src={img} />
+                <Card className="p-3 shadow" style={{ height: "500px" }}>
+
+                    <p className="text-center mt-1"><Card.Img variant="top" className="rounded" style={{ width: "420px", height: "300px" }} src={img} /></p>
                     <Card.Body>
-                        <Card.Title>{program}</Card.Title>
-                        <Card.Text>
-                            {shift}
-                            This is a longer card with supporting text below as a natural
-                            lead-in to additional content. This content is a little bit longer.
-                        </Card.Text>
-                        <Button>Click</Button>
+                        <Card.Title>Program : {program}</Card.Title>
+                        <h6>Shift : {shift}</h6>
+                        <h6>Available Seat : {availableSeat}</h6>
+                        <Button variant="warning">Click For Details</Button>
                     </Card.Body>
                 </Card>
             </Col>

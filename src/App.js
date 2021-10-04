@@ -8,12 +8,11 @@ import About from './componants/About/About';
 import Contact from './componants/Contact/Contact';
 import NotFound from './componants/NotFound/NotFound';
 import Footer from './componants/Footer/Footer';
-import Teachers from './componants/Teachers/Teachers';
-import Teacher from './componants/Teacher/Teacher';
+import Achivements from './componants/Achivement/Achivements';
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Router>
 
         <Header></Header>
@@ -39,11 +38,8 @@ function App() {
           <Route exact path="/services">
             <Service></Service>
           </Route>
-          <Route exact path="/teachers">
-            <Teachers></Teachers>
-          </Route>
-          <Route exact path="/teacher">
-            <Teacher></Teacher>
+          <Route exact path="/achivements">
+            <Achivements></Achivements>
           </Route>
           <Route path="*">
             <NotFound></NotFound>
