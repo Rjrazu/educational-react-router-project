@@ -1,9 +1,15 @@
 import React from 'react';
 import { Button, Card, Col } from 'react-bootstrap';
+import { useHistory } from 'react-router';
 
 const Service = (props) => {
-    console.log(props.program)
     const { program, shift, availableSeat, img } = props.program;
+    const history = useHistory();
+
+    const handleClick = () => {
+
+        history.push(`/services`);
+    }
 
     return (
         <div className="col-lg-6">
@@ -15,7 +21,7 @@ const Service = (props) => {
                         <Card.Title>Program : {program}</Card.Title>
                         <h6>Shift : {shift}</h6>
                         <h6>Available Seat : {availableSeat}</h6>
-                        <Button variant="warning">Click For Details</Button>
+                        <Button onClick={handleClick} variant="warning">Click For Details</Button>
                     </Card.Body>
                 </Card>
             </Col>

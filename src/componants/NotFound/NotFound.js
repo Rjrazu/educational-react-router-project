@@ -12,7 +12,7 @@ const NotFound = () => {
     }
 
     return (
-        <div className="container mb-5 mt-5">
+        <div className="container mb-5 mt-5 text-center">
             <img src="https://lnfnunes.github.io/404-PageNotFound/dist/img/logo.png" alt="" /> <br />
             <Button onClick={handleClick}>Back To Home</Button>
         </div>

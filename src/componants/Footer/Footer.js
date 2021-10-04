@@ -67,12 +67,6 @@ const Footer = () => {
                         </div>
                         <div className="col-md-5">
                             <div className="right-footer-container">
-
-                                <div className="phone d-flex align-items-center justify-content-center mt-4">
-                                    <div>
-                                        <h5>+8801303394250</h5>
-                                    </div>
-                                </div>
                                 <div className="map d-flex align-items-center justify-content-center">
                                     <div className="foter-phone-icon">
 
@@ -80,7 +74,7 @@ const Footer = () => {
                                     <div>
                                         <p>
                                             Anondo Bajar
-                                            <br /> Romari, Kurigram-4, Rangpur
+                                            <br /> Rowmari, Kurigram-4, Rangpur
                                         </p>
                                     </div>
                                 </div>

@@ -10,7 +10,20 @@ const Achivements = () => {
                     </div>
                 </div>
             </div>
-
+            <div className="row text-center shadow">
+                <div className="col-lg-4 mt-5 mb-5">
+                    <h1>A+ From Primary</h1>
+                    <h4>2000+</h4>
+                </div>
+                <div className="col-lg-4 mt-5 mb-5">
+                    <h1>A+ From S.S.C</h1>
+                    <h4>1500+</h4>
+                </div>
+                <div className="col-lg-4 mt-5 mb-5">
+                    <h1>A+ From H.S.C</h1>
+                    <h4>1000+</h4>
+                </div>
+            </div>
 
 
         </div>
