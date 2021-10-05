@@ -3,7 +3,6 @@ import './App.css';
 import Header from './componants/Header/Header';
 import Home from './componants/Home/Home'
 import Services from './componants/Services/Services';
-import Service from './componants/Service/Service';
 import About from './componants/About/About';
 import Contact from './componants/Contact/Contact';
 import NotFound from './componants/NotFound/NotFound';
@@ -16,7 +15,6 @@ function App() {
       <Router>
 
         <Header></Header>
-
 
         <Switch>
           <Route exact path="/">
@@ -34,9 +32,6 @@ function App() {
           </Route>
           <Route exact path="/contact">
             <Contact></Contact>
-          </Route>
-          <Route exact path="/services">
-            <Service></Service>
           </Route>
           <Route exact path="/achivements">
             <Achivements></Achivements>

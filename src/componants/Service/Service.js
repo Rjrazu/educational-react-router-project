@@ -14,9 +14,9 @@ const Service = (props) => {
     return (
         <div className="col-lg-6">
             <Col>
-                <Card className="p-3 shadow" style={{ height: "500px" }}>
+                <Card className="p-3 shadow">
 
-                    <p className="text-center mt-1"><Card.Img variant="top" className="rounded" style={{ width: "420px", height: "300px" }} src={img} /></p>
+                    <p className="text-center mt-1"><Card.Img variant="top" className="rounded" style={{ maxWidth: "450px", height: "300px" }} src={img} /></p>
                     <Card.Body>
                         <Card.Title>Program : {program}</Card.Title>
                         <h6>Shift : {shift}</h6>

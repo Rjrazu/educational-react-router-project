@@ -5,10 +5,10 @@ import { NavLink } from 'react-router-dom';
 
 const Header = () => {
     return (
-        <div>
-            <Navbar bg="light" expand="lg">
+        <div className="text-center">
+            <Navbar bg="dark" expand="lg">
                 <Container>
-                    <Navbar.Brand style={{ fontWeight: "bold", fontSize: "22px" }} href="/home"> Commitment S&C</Navbar.Brand>
+                    <Navbar.Brand style={{ fontWeight: "bolder", fontSize: "22px", color: "white" }} href="/home"> Commitment S&C</Navbar.Brand>
                     <Navbar.Toggle aria-controls="navbarScroll" />
                     <Navbar.Collapse id="navbarScroll">
                         <Nav
@@ -18,6 +18,7 @@ const Header = () => {
                         >
                             <NavLink
                                 style={{
+                                    color: "white",
                                     fontSize: "20px",
                                     textDecoration: "none",
                                     marginRight: "20px",
@@ -31,6 +32,7 @@ const Header = () => {
                                 to="/home">Home</NavLink>
                             <NavLink
                                 style={{
+                                    color: "white",
                                     fontSize: "20px",
                                     textDecoration: "none",
                                     marginRight: "20px"
@@ -43,6 +45,7 @@ const Header = () => {
                                 to="/services">Services</NavLink>
                             <NavLink
                                 style={{
+                                    color: "white",
                                     fontSize: "20px",
                                     textDecoration: "none",
                                     marginRight: "20px"
@@ -55,6 +58,7 @@ const Header = () => {
                                 to="/achivements">Achivements</NavLink>
                             <NavLink
                                 style={{
+                                    color: "white",
                                     fontSize: "20px",
                                     textDecoration: "none",
                                     marginRight: "20px"
@@ -67,6 +71,7 @@ const Header = () => {
                                 to="/about">About Us</NavLink>
                             <NavLink
                                 style={{
+                                    color: "white",
                                     fontSize: "20px",
                                     textDecoration: "none",
                                     marginRight: "20px"
